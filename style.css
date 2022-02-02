@@ -1,3 +1,44 @@
+*{margin: 0px; padding: 0px;}
+.containermain{
+    height: 100vh;
+    background-color: #f8efd7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.containers{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.bottons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.boton{
+    border: 0px;
+    background-color: #95cb1a;
+    padding: 2%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.text{
+    margin: 2%;
+    resize: none;
+    padding: 2%;
+    font-size:x-large
+}
 
 
